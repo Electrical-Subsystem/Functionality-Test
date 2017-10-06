@@ -12,9 +12,9 @@
 
 ## Problems faced
 - **SPI sending garbage value after programming the master**
-    - **Solution**
+    - **Solution** :
       _Restart the OBC_
-    - **Reason**
+    - **Reason** :
     _We use SPI protocol to program the micro-controller so after programming the OBC the buffer gets partially filled and we get garbage output. Restarting the OBC clears the buffer._
 
 - **Programmer led red while programming the slave.**
